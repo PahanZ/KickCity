@@ -1,10 +1,28 @@
 .select_city_wrap {
     display: flex;
+    grid-column: 3/5;
+    justify-content: space-around;
+    position: relative;
     .select_city {
         background: transparent;
         border: none;
+        outline: none;
+        .arrow {
+            margin: 1px 5px;
+        }
     }
-    option {
-        color: #8b98ab;
+    .dropdown {
+        position: absolute;
+        display: none;
+        list-style: none;
+        width: 120px;
+        text-align: left;
+    }
+    .select_city, .dropdown {
+        cursor: pointer;
+    }
+    .open {
+        display: flex;
+        flex-direction: column;
     }
 };
