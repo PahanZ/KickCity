@@ -1,0 +1,36 @@
+.btn_icon_search {
+    grid-column: 8/8;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.search_Form, .hide {
+    display: none;
+}
+.search_Form_Open {
+    grid-column: 7/10;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    .input_search {
+        grid-column: 1/4;
+        border: none;
+        outline: none;
+    }
+    .search, .close {
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        &:hover{
+            color: blue;
+        }
+    }
+    .search {
+        grid-column: 5/5;
+    }
+    .close {
+        grid-column: 6/6;
+        font-size: 24px;
+    }
+}

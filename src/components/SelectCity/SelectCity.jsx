@@ -1,7 +1,6 @@
 import React from 'react';
-import './styles.css';
-import Marker from '../Marker';
-import Arrow from '../Arrow';
+import Marker from './Marker';
+import Arrow from './Arrow';
 
 const marker = require('../../img/marker.png');
 const markerActive = require('../../img/marker_active.png');
@@ -38,7 +37,7 @@ export default class SelectCity extends React.Component {
       <div className="select_city_wrap">
         <Marker src={this.state.markerPath} />
         <button
-          className="select_city"
+          className="select"
           onClick={this.handleClick}
         >{this.state.selectValue}
           <ul className={this.state.classnameDropDown}>

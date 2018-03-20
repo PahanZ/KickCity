@@ -3,7 +3,7 @@
     grid-column: 3/5;
     justify-content: space-around;
     position: relative;
-    .select_city {
+    .select {
         background: transparent;
         border: none;
         outline: none;
@@ -18,7 +18,7 @@
         width: 120px;
         text-align: left;
     }
-    .select_city, .dropdown {
+    .select, .dropdown {
         cursor: pointer;
     }
     .open {

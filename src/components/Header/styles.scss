@@ -4,4 +4,7 @@
     grid-column-gap: 20px;
     align-items: center;
     @import '../SelectCity/styles.scss';
+    @import '../Categories/styles.scss';
+    @import '../Explore/styles.scss';
+    @import '../Search/styles.scss';
 };
