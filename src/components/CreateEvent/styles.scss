@@ -1,0 +1,12 @@
+.createEvent {
+    grid-column: 11/11;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    &:hover {
+        background-color: aquamarine;
+        border: 1px solid grey;
+    }
+}

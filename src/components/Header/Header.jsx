@@ -5,6 +5,8 @@ import SelectCity from '../SelectCity/SelectCity';
 import Categories from '../Categories/Categories';
 import Explore from '../Explore/Explore';
 import Search from '../Search/Search';
+import Notification from '../Notification/Notification';
+import CreateEvent from '../CreateEvent/CreateEvent';
 
 export default () => (
   <div className="header">
@@ -13,6 +15,8 @@ export default () => (
     <Categories />
     <Explore />
     <Search />
+    <Notification />
+    <CreateEvent />
   </div>
 );
 
