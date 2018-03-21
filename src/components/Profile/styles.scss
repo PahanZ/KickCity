@@ -1,0 +1,14 @@
+.profile {
+    grid-column: 12/12;
+    display: flex;
+    align-items: center;
+    .digits {
+        color: paleturquoise;
+    }
+    .KCY {
+        margin: 0 10px,
+    }
+    .photo {
+        border-radius: 50%;
+    }
+}

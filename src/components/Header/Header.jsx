@@ -7,6 +7,7 @@ import Explore from '../Explore/Explore';
 import Search from '../Search/Search';
 import Notification from '../Notification/Notification';
 import CreateEvent from '../CreateEvent/CreateEvent';
+import Profile from '../Profile/Profile';
 
 export default () => (
   <div className="header">
@@ -17,6 +18,7 @@ export default () => (
     <Search />
     <Notification />
     <CreateEvent />
+    <Profile />
   </div>
 );
 
