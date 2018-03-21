@@ -1,0 +1,9 @@
+.slogan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    grid-row-gap: 25px;
+    * {
+        grid-column: 2/2;
+    } 
+}

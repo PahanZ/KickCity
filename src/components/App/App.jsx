@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
-import Header from '../Header/Header.jsx';
+import Header from '../Header/Header';
+import Main from '../Main/Main';
 
 export default () => (
-  <Header />
+  <Fragment>
+    <Header />
+    <Main />
+  </Fragment>
 );
