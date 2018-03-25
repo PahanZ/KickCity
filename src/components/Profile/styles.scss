@@ -2,13 +2,21 @@
     grid-column: 12/12;
     display: flex;
     align-items: center;
+    position: relative;
     .digits {
-        color: paleturquoise;
+        color: #0099d5;
     }
     .KCY {
         margin: 0 10px,
     }
-    .photo {
-        border-radius: 50%;
+    .select {
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        .photo {
+            border-radius: 50%;
+        }
     }
+    @import '../ProfileDropdown/styles.scss';
 }

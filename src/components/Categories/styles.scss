@@ -12,8 +12,7 @@
             height: 2px;
             background-color: #009ad6;
             position: relative;
-            top: 15px;
-            margin-top: -2px;
+            top: 25px;
             width: 100%;
             z-index: 0;
         }
@@ -25,19 +24,23 @@
         position: absolute;
         display: none;
         list-style: none;
-        width: 150px;
+        width: 190px;
         text-align: left;
-        background-color: #fff;
+        background: #fcfefe;
+        margin: 12px 0;
     }
     .dropdown_open {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         z-index: 2;
         li {
-            margin: 0 5px;
+            padding: 8px 17px;
             a {
                 text-decoration: none;
+                color: #8b98ab;
+            }
+            a:hover {
+                color: #3b3f4a;
             }
         }
     }

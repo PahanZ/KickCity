@@ -1,0 +1,26 @@
+.coin {
+    position: relative;
+    .tooltip {
+        border-radius: 8px;
+        width: 155px;
+        top: 35px;
+        background: white;
+        padding: 15px;
+        color: black;
+        position: absolute;
+        left: -15px;
+        display: none;
+        .pointer {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            background: white;
+            transform: rotate(45deg);
+            left: 19px;
+            top: -4px;
+        }
+    }
+    .tooltip_hover {
+        display: block;
+    }
+}

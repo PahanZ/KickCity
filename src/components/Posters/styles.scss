@@ -1,0 +1,13 @@
+section {
+    grid-gap: 15px;
+    margin: 0 5%;
+    @import '../Poster/styles.scss';
+}
+section:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+}
+section:last-child {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}

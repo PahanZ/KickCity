@@ -15,9 +15,19 @@
         position: absolute;
         display: none;
         list-style: none;
-        width: 120px;
+        width: 155px;
         text-align: left;
+        color: #8b98ab;
+        right: -45px;
+        background: #fcfefe;
+        margin: 12px 0;
+        li {
+            padding: 8px 17px;
+        }
     }
+    .dropdown li:hover {
+        color: #3b3f4a;
+    } 
     .select, .dropdown {
         cursor: pointer;
     }
