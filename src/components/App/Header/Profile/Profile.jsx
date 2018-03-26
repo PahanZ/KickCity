@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileDropdown from '../ProfileDropdown/ProfileDropdown';
+import ProfileDropdown from './ProfileDropdown/ProfileDropdown';
 
 const img = require('../../../../img/avatar.png');
 

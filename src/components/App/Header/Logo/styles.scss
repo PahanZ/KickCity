@@ -1,3 +1,9 @@
-// .logo {
-//     // flex: 1;
-// }
+.logoWrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #e7f0f7;
+    img {
+        margin: 0 15px
+    }
+}

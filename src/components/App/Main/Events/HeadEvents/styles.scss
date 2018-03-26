@@ -1,0 +1,11 @@
+.headEvents {
+    display: flex;
+    justify-content: space-between;
+    div {
+        display: flex;
+        align-items: center;
+        img {
+            margin: 0 10px;
+        }
+    }
+}

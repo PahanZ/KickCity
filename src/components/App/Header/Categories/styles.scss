@@ -28,7 +28,9 @@
         width: 190px;
         text-align: left;
         background: #fcfefe;
-        margin: 12px 0;
+        margin: 23px 0;
+        border: 1px solid #e7f0f7;
+        border-radius: 5px;
     }
     .dropdown_open {
         display: grid;
@@ -39,9 +41,9 @@
             a {
                 text-decoration: none;
                 color: #8b98ab;
-            }
-            a:hover {
-                color: #3b3f4a;
+                &:hover {
+                    color: #3b3f4a;
+                }
             }
         }
     }

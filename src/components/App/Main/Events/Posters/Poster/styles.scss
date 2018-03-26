@@ -22,8 +22,8 @@
             display: grid;
             grid-template-columns: 2fr 1fr;
             grid-gap: 13px;
-            @import './HeadEvents/Free/styles.scss';
-            @import './HeadEvents/Coin/styles.scss';
+            @import '../Free/styles.scss';
+            @import '../Coin/styles.scss';
         }        
     }
     .description {

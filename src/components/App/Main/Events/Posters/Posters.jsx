@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import Poster from './Poster/Poster';
 import posters from '../../../../../posters';
-import Free from './Poster/HeadEvents/Free/Free';
-import Coin from './Poster/HeadEvents/Coin/Coin';
+import Free from './Free/Free';
+import Coin from './Coin/Coin';
 
 export default () => (
   <Fragment>
@@ -19,7 +19,7 @@ export default () => (
       />)) }
     </section>
     <section>
-      {posters.map((element, i) => ((i > 2) && 
+      {posters.map((element, i) => ((i > 2) &&
       <Poster
         key={String(i)}
         src={element.poster}

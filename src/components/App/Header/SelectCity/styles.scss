@@ -3,6 +3,10 @@
     grid-column: 3/5;
     justify-content: space-around;
     position: relative;
+    height: 100%;
+    img {
+        align-self: center;
+    }
     .select {
         background: transparent;
         border: none;
@@ -20,13 +24,15 @@
         color: #8b98ab;
         right: -45px;
         background: #fcfefe;
-        margin: 12px 0;
+        margin: 25px 0;
+        border: 1px solid #e7f0f7;
+        border-radius: 5px;
         li {
             padding: 8px 17px;
+            &:hover {
+                color: #3b3f4a;
+            }
         }
-    }
-    .dropdown li:hover {
-        color: #3b3f4a;
     } 
     .select, .dropdown {
         cursor: pointer;

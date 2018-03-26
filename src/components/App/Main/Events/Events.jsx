@@ -1,5 +1,5 @@
 import React from 'react';
-import HeadEvents from './Posters/Poster/HeadEvents/HeadEvents';
+import HeadEvents from './HeadEvents/HeadEvents';
 import Posters from './Posters/Posters';
 
 export default () => (

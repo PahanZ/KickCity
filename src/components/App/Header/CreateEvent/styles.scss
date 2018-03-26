@@ -5,6 +5,8 @@
     outline: none;
     background-color: transparent;
     cursor: pointer;
+    border-left: 1px solid #e7f0f7;
+    border-right: 1px solid #e7f0f7;
     &:hover {
         color: #fcfefe;
         background-color: #009ad6;

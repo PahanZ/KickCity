@@ -1,6 +1,6 @@
 import React from 'react';
 
-const coinImg = require('../../../../../../../../img/coin.png');
+const coinImg = require('../../../../../../img/coin.png');
 
 export default class Coin extends React.Component {
   constructor(props) {
