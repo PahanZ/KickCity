@@ -1,0 +1,16 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    align-items: center;
+    background-color: #fcfefe;
+    margin: 0 5%;
+    @import './SelectCity/styles.scss';
+    @import './Categories/styles.scss';
+    @import './Explore/styles.scss';
+    @import './Search/styles.scss';
+    @import './Notification/styles.scss';
+    @import './CreateEvent/styles.scss';
+    @import './Profile/styles.scss';
+};
+

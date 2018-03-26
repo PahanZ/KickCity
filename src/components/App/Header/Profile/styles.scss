@@ -1,0 +1,23 @@
+.profile {
+    grid-column: 12/12;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .digits {
+        color: #0099d5;
+    }
+    .KCY {
+        margin: 0 10px;
+        color: #8b98ab;
+    }
+    .select {
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        .photo {
+            border-radius: 50%;
+        }
+    }
+    @import '../ProfileDropdown/styles.scss';
+}
